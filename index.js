@@ -58,7 +58,7 @@ app.post('/checkout-internet-banking', async (req,res)=>{
 			amount: amount,
 			source: token,
 			currency: 'thb',
-			return_uri: 'http://localhost:3000/cart'
+			return_uri: 'https://reactshop-18352.firebaseapp.com/#/cart'
 		});
 		if(charge){
 			res.send({
