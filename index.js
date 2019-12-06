@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 var path = require('path');
 var cors = require('cors')
 require('dotenv').config()
-var port = 4000
+var port = process.env.PORT || 4000;
 
 var omise = require('omise')({
 	'publicKey': process.env.OMISE_PUBLIC_KEY,
@@ -22,6 +22,10 @@ app.use(bodyParser.urlencoded({'extended':true}))
 
 app.get('/',function(req,res){
 	res.sendFile(path.join(__dirname+'/index.html'))
+})
+
+app.get('/test',function(req,res){
+	res.send("Test");
 })
 
 /*
