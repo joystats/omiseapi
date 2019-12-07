@@ -2,6 +2,8 @@ var express = require('express')
 var app = express()
 const bodyParser = require('body-parser');
 var path = require('path');
+const axios = require('axios');
+var nodemailer = require('nodemailer');
 var cors = require('cors')
 require('dotenv').config()
 var port = process.env.PORT || 4000;
@@ -51,6 +53,36 @@ const createBanking = async ()=>{
 createBanking();*/
 
 
+app.get('/testmail', async (req,res)=>{
+	
+	var transporter = nodemailer.createTransport({
+		service: 'gmail',
+		auth: {
+			user: 'klineneverdie@gmail.com',
+			pass: 'upnxktpltxkbmymr' /* password from google App Password*/
+			//pass: 'P4ss.out'
+		}
+	});
+
+	var mailOptions = {
+		from: 'klineneverdie@gmail.com',
+		to: 'joystats@yahoo.com,p44n@hotmail.com',
+		subject: 'Sending Email using Node.js',
+		html: '<h1>Welcome</h1><p>That was easy!</p>'
+	};
+	
+	transporter.sendMail(mailOptions, function(error, info){
+		if (error) {
+			console.log(error);
+		} else {
+			console.log('Email sent: ' + info.response);
+		}
+	});
+	
+	res.json({a:1})
+	
+})
+
 app.post('/checkout-internet-banking', async (req,res)=>{
 	const {name, email, amount, token} = req.body
 	try{
@@ -61,11 +93,29 @@ app.post('/checkout-internet-banking', async (req,res)=>{
 			return_uri: 'https://reactshop-18352.firebaseapp.com/#/cart'
 		});
 		if(charge){
-			res.send({
-				amount: charge.amount,
-				status: charge.status,
-				authorizeUri: charge.authorize_uri
-			})
+			
+			if(charge.status==="pending"){
+				const line = await axios({
+					method: 'post',
+					url: 'https://notify-api.line.me/api/notify',
+					data: {
+						message: 'test'
+					},
+					headers: {
+						"Content-Type": "application/x-www-form-urlencoded",
+						"Authorization": "Bearer KcO1cAA1unj8F4tRTl34RMa7BegDq3ZwqZv6T4P1UMf"
+					}
+				})
+				
+				if(line){
+					res.send({
+						amount: charge.amount,
+						status: charge.status,
+						authorizeUri: charge.authorize_uri
+					})
+				}
+			}
+			
 		}
 	}catch(error){
 		res.send(error)
