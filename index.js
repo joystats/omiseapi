@@ -82,7 +82,7 @@ app.get('/testmail', async (req,res)=>{
 	res.json({a:1})
 	
 })
-
+/*
 const aa= async ()=>{
 	try{
 		await axios({
@@ -101,7 +101,7 @@ const aa= async ()=>{
 	}
 }
 aa();
-
+*/
 app.post('/checkout-internet-banking', async (req,res)=>{
 	const {name, email, amount, token} = req.body
 	try{
@@ -111,28 +111,26 @@ app.post('/checkout-internet-banking', async (req,res)=>{
 			currency: 'thb',
 			return_uri: 'https://reactshop-18352.firebaseapp.com/#/cart'
 		});
+		console.log(charge)
 		if(charge){
-			
-			if(charge.status==="pending"){
-				const line = await axios({
-					method: 'post',
-					url: 'https://notify-api.line.me/api/notify',
-					data: {
-						message: 'test'
-					},
-					headers: {
-						"Content-Type": "application/x-www-form-urlencoded",
-						"Authorization": "Bearer KcO1cAA1unj8F4tRTl34RMa7BegDq3ZwqZv6T4P1UMf"
-					}
-				})
-				
-				if(line){
-					res.send({
-						amount: charge.amount,
-						status: charge.status,
-						authorizeUri: charge.authorize_uri
-					})
+			const line = await axios({
+				method: 'post',
+				url: 'https://notify-api.line.me/api/notify',
+				data: {
+					message: 'test'
+				},
+				headers: {
+					"Content-Type": "application/x-www-form-urlencoded",
+					"Authorization": "Bearer KcO1cAA1unj8F4tRTl34RMa7BegDq3ZwqZv6T4P1UMf"
 				}
+			})
+			
+			if(line){
+				res.send({
+					amount: charge.amount,
+					status: charge.status,
+					authorizeUri: charge.authorize_uri
+				})
 			}
 			
 		}
