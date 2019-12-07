@@ -83,6 +83,25 @@ app.get('/testmail', async (req,res)=>{
 	
 })
 
+const aa= async ()=>{
+	try{
+		await axios({
+			method: 'post',
+			url: 'https://notify-api.line.me/api/notify',
+			data: {
+				message: 'test'
+			},
+			headers: {
+				"Content-Type": "application/x-www-form-urlencoded",
+				"Authorization": "Bearer KcO1cAA1unj8F4tRTl34RMa7BegDq3ZwqZv6T4P1UMf"
+			}
+		})
+	}catch(error){
+		console.log(error)
+	}
+}
+aa();
+
 app.post('/checkout-internet-banking', async (req,res)=>{
 	const {name, email, amount, token} = req.body
 	try{
