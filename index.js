@@ -3,8 +3,10 @@ var app = express()
 const bodyParser = require('body-parser');
 var path = require('path');
 const axios = require('axios');
+const qs = require('querystring')
 var nodemailer = require('nodemailer');
 var cors = require('cors')
+const fs = require('fs');
 require('dotenv').config()
 var port = process.env.PORT || 4000;
 
@@ -35,10 +37,11 @@ const createBanking = async ()=>{
 	try{
 		const res = await omise.charges.create({
 			amount: 10700,
-			source: 'src_test_5i40xf140otk3m5wvn',
+			source: 'src_test_5i5ayk38ajh9594zclo',
 			currency: 'thb',
 			return_uri: 'https://omise.co'
 		});
+		console.log(res)
 		if(res){
 			res.send({
 				amount: res.amount,
@@ -46,12 +49,13 @@ const createBanking = async ()=>{
 			})
 		}
 	}catch(error){
-		res.send(error)
+		console.log(error)
+		//res.send(error)
 	}
 }
 
-createBanking();*/
-
+createBanking();
+*/
 
 app.get('/testmail', async (req,res)=>{
 	
@@ -82,57 +86,96 @@ app.get('/testmail', async (req,res)=>{
 	res.json({a:1})
 	
 })
+
 /*
 const aa= async ()=>{
+	requestBody={
+		message:"test"
+	}
 	try{
-		await axios({
+		const line= await axios({
 			method: 'post',
 			url: 'https://notify-api.line.me/api/notify',
-			data: {
-				message: 'test'
-			},
+			data:qs.stringify(requestBody),
 			headers: {
 				"Content-Type": "application/x-www-form-urlencoded",
 				"Authorization": "Bearer KcO1cAA1unj8F4tRTl34RMa7BegDq3ZwqZv6T4P1UMf"
 			}
 		})
+		console.log(line.status)
 	}catch(error){
 		console.log(error)
 	}
 }
-aa();
-*/
+aa();*/
+
+const sendNotify = async (message)=>{
+	const requestBody = {
+		message
+	}
+	return await axios({
+		method: 'post',
+		url: 'https://notify-api.line.me/api/notify',
+		data:qs.stringify(requestBody),
+		headers: {
+			"Content-Type": "application/x-www-form-urlencoded",
+			"Authorization": "Bearer KcO1cAA1unj8F4tRTl34RMa7BegDq3ZwqZv6T4P1UMf"
+		}
+	})
+}
+
+
+app.post('/getcharge/:id', (req,res)=>{
+	const {id} = req.params
+	try{
+		//omise.charges.retrieve('https://api.omise.co/charges/'+id);
+		omise.charges.retrieve(id,function(error, charge) {
+			if(charge.status==="successful"){
+				console.log(charge)
+				sendNotify("มีรายการชำระเงินจำนวน "+charge.amount.toFixed(2)+" THB")
+			}
+			res.send(charge)
+		});
+	}catch(error){
+		console.log(error)
+	}
+})
+
+app.post('/omisewebhook', async (req,res)=>{
+	const jsonContent = JSON.stringify(req.body);
+	fs.writeFile("output.json", jsonContent, 'utf8', function (err) {
+		if (err) {
+			console.log("An error occured while writing JSON Object to File.");
+			return console.log(err);
+		}
+	 
+		console.log("omise was hook.");
+	});
+	res.json(req.body)
+})
+
 app.post('/checkout-internet-banking', async (req,res)=>{
 	const {name, email, amount, token} = req.body
+	const random = Math.floor(Math.random() * 1000) + 1
 	try{
 		const charge = await omise.charges.create({
 			amount: amount,
 			source: token,
 			currency: 'thb',
-			return_uri: 'https://reactshop-18352.firebaseapp.com/#/cart'
+		//	return_uri: 'https://reactshop-18352.firebaseapp.com/#/cart'
+			return_uri: 'http://localhost:3000/#/finished/'+random
 		});
-		console.log(charge)
+		
 		if(charge){
-			const line = await axios({
-				method: 'post',
-				url: 'https://notify-api.line.me/api/notify',
-				data: {
-					message: 'test'
-				},
-				headers: {
-					"Content-Type": "application/x-www-form-urlencoded",
-					"Authorization": "Bearer KcO1cAA1unj8F4tRTl34RMa7BegDq3ZwqZv6T4P1UMf"
-				}
+			console.log('charge-->',charge)
+			//await sendNotify("มีคำสั่งซื้อใหม่")
+			res.send({
+				id: charge.id,
+				random_id: random,
+				amount: charge.amount,
+				status: charge.status,
+				authorizeUri: charge.authorize_uri
 			})
-			
-			if(line){
-				res.send({
-					amount: charge.amount,
-					status: charge.status,
-					authorizeUri: charge.authorize_uri
-				})
-			}
-			
 		}
 	}catch(error){
 		res.send(error)
@@ -155,6 +198,7 @@ app.post('/checkout-credit-card', async (req,res)=>{
 			customer: customer.id,
 		});
 		if(charge){
+			await sendNotify("มีคำสั่งซื้อใหม่")
 			res.send({
 				amount: charge.amount,
 				status: charge.status
