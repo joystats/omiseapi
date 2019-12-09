@@ -168,7 +168,7 @@ app.post('/checkout-internet-banking', async (req,res)=>{
 		
 		if(charge){
 			console.log('charge-->',charge)
-			//await sendNotify("มีคำสั่งซื้อใหม่")
+			await sendNotify("มีคำสั่งซื้อใหม่")
 			res.send({
 				id: charge.id,
 				random_id: random,
