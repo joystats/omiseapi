@@ -131,7 +131,7 @@ app.post('/getcharge/:id', (req,res)=>{
 		omise.charges.retrieve(id,function(error, charge) {
 			if(charge.status==="successful"){
 				console.log(charge)
-				sendNotify("มีรายการชำระเงินจำนวน "+charge.amount.toFixed(2)+" THB")
+				sendNotify("มียอดชำระเงินผ่านอินเตอร์เน็ตแบ็งค์กิ้งจำนวน "+charge.amount.toFixed(2)+" THB")
 			}
 			res.send(charge)
 		});
@@ -167,7 +167,7 @@ app.post('/checkout-internet-banking', async (req,res)=>{
 		
 		if(charge){
 			console.log('charge-->',charge)
-			await sendNotify("มีคำสั่งซื้อใหม่")
+			await sendNotify("มีคำสั่งซื้อใหม่เลขที่: ORD"+random)
 			res.send({
 				id: charge.id,
 				random_id: random,
@@ -197,7 +197,7 @@ app.post('/checkout-credit-card', async (req,res)=>{
 			customer: customer.id,
 		});
 		if(charge){
-			await sendNotify("มีการชำระเงินผ่านบัตรเครดิตเข้ามาใหม่")
+			await sendNotify("มียอดชำระเงินผ่านบัตรเครดิตจำนวน "+(amount/100).toFixed(2)+" THB")
 			res.send({
 				amount: charge.amount,
 				status: charge.status
