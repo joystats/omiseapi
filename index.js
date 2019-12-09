@@ -130,7 +130,6 @@ app.post('/getcharge/:id', (req,res)=>{
 		//omise.charges.retrieve('https://api.omise.co/charges/'+id);
 		omise.charges.retrieve(id,function(error, charge) {
 			if(charge.status==="successful"){
-				console.log(charge)
 				sendNotify("มียอดชำระเงินผ่านอินเตอร์เน็ตแบ็งค์กิ้งจำนวน "+(charge.amount/100).toFixed(2)+" THB")
 			}
 			res.send(charge)
@@ -166,8 +165,7 @@ app.post('/checkout-internet-banking', async (req,res)=>{
 		});
 		
 		if(charge){
-			console.log('charge-->',charge)
-			await sendNotify("มีคำสั่งซื้อใหม่เลขที่: ORD"+random)
+			await sendNotify("มีคำสั่งซื้อใหม่เลขที่: ORDID"+random)
 			res.send({
 				id: charge.id,
 				random_id: random,
