@@ -131,7 +131,7 @@ app.post('/getcharge/:id', (req,res)=>{
 		omise.charges.retrieve(id,function(error, charge) {
 			if(charge.status==="successful"){
 				console.log(charge)
-				sendNotify("มียอดชำระเงินผ่านอินเตอร์เน็ตแบ็งค์กิ้งจำนวน "+charge.amount.toFixed(2)+" THB")
+				sendNotify("มียอดชำระเงินผ่านอินเตอร์เน็ตแบ็งค์กิ้งจำนวน "+(charge.amount/100).toFixed(2)+" THB")
 			}
 			res.send(charge)
 		});
