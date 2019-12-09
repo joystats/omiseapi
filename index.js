@@ -63,8 +63,7 @@ app.get('/testmail', async (req,res)=>{
 		service: 'gmail',
 		auth: {
 			user: 'klineneverdie@gmail.com',
-			pass: 'upnxktpltxkbmymr' /* password from google App Password*/
-			//pass: 'P4ss.out'
+			pass: 'xxx' /* password from google App Password*/
 		}
 	});
 
@@ -72,7 +71,7 @@ app.get('/testmail', async (req,res)=>{
 		from: 'klineneverdie@gmail.com',
 		to: 'joystats@yahoo.com,p44n@hotmail.com',
 		subject: 'Sending Email using Node.js',
-		html: '<h1>Welcome</h1><p>That was easy!</p>'
+		html: '<h1>Notice</h1><p>That was easy!</p>'
 	};
 	
 	transporter.sendMail(mailOptions, function(error, info){
