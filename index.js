@@ -197,7 +197,7 @@ app.post('/checkout-credit-card', async (req,res)=>{
 			customer: customer.id,
 		});
 		if(charge){
-			await sendNotify("มีคำสั่งซื้อใหม่")
+			await sendNotify("มีการชำระเงินผ่านบัตรเครดิตเข้ามาใหม่")
 			res.send({
 				amount: charge.amount,
 				status: charge.status
