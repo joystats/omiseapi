@@ -124,6 +124,22 @@ const sendNotify = async (message)=>{
 }
 
 
+app.get('/gethistory', async (req,res)=>{
+	try{
+		await omise.charges.list({
+			from: "2019-12-01T00:00:00Z",
+			to: "2020-12-31T00:00:00Z",
+			offset:0,
+			limit:50,
+			order:"reverse_chronological"
+		},function(err,lists){
+			res.send(lists)
+		})
+	}catch(err){
+		console.log(err)
+	}
+})
+
 app.post('/getcharge/:id', (req,res)=>{
 	const {id} = req.params
 	try{
