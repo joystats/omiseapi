@@ -63,7 +63,7 @@ app.get('/testmail', async (req,res)=>{
 		service: 'gmail',
 		auth: {
 			user: 'klineneverdie@gmail.com',
-			pass: 'xxx' /* password from google App Password*/
+			pass: 'upnxktpltxkbmymr' /* password from google App Password*/
 		}
 	});
 
@@ -179,7 +179,7 @@ app.post('/omisewebhook', async (req,res)=>{
 		from: 'klineneverdie@gmail.com',
 		to: 'joystats@yahoo.com,p44n@hotmail.com',
 		subject: 'Sending Email using Node.js',
-		html: '<h1>Notice</h1><p>Omise web hook!</p>'+JSON.Stringify(req.body)
+		html: '<h1>Notice</h1><p>Omise web hook!</p>'
 	};
 	
 	transporter.sendMail(mailOptions, function(error, info){
