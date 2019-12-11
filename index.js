@@ -163,7 +163,7 @@ app.post('/omisewebhook', async (req,res)=>{
 			return console.log(err);
 		}
 	 
-		console.log("omise was hook.");
+		console.log("Omise was hook.");
 	});
 	res.json(req.body)
 })
