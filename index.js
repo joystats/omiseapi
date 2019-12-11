@@ -69,7 +69,7 @@ app.get('/testmail', async (req,res)=>{
 
 	var mailOptions = {
 		from: 'klineneverdie@gmail.com',
-		to: 'joystats@yahoo.com,p44n@hotmail.com',
+		to: 'joystats@yahoo.com',
 		subject: 'Sending Email using Node.js',
 		html: '<h1>Notice</h1><p>That was easy!</p>'
 	};
@@ -177,9 +177,9 @@ app.post('/omisewebhook', async (req,res)=>{
 
 	var mailOptions = {
 		from: 'klineneverdie@gmail.com',
-		to: 'joystats@yahoo.com,p44n@hotmail.com',
+		to: 'joystats@yahoo.com',
 		subject: 'Sending Email using Node.js',
-		html: '<h1>Notice</h1><p>Omise web hook!!!</p>'
+		html: '<h1>Notice</h1><p>Omise web hook!!!!!</p>'
 	};
 	
 	transporter.sendMail(mailOptions, function(error, info){
