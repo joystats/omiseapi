@@ -77,12 +77,14 @@ app.get('/testmail', async (req,res)=>{
 	transporter.sendMail(mailOptions, function(error, info){
 		if (error) {
 			console.log(error);
+			res.json({a:0})
 		} else {
 			console.log('Email sent: ' + info.response);
+			res.json({a:1})
 		}
 	});
 	
-	res.json({a:1})
+	//res.json({a:2})
 	
 })
 
