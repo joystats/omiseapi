@@ -156,7 +156,7 @@ app.post('/getcharge/:id', (req,res)=>{
 })
 
 app.post('/omisewebhook', async (req,res)=>{
-	const jsonContent = JSON.stringify(req.body);
+	/*const jsonContent = JSON.stringify(req.body);
 	fs.writeFile("output.json", jsonContent, 'utf8', function (err) {
 		if (err) {
 			console.log("An error occured while writing JSON Object to File.");
@@ -164,6 +164,30 @@ app.post('/omisewebhook', async (req,res)=>{
 		}
 	 
 		console.log("Omise was hook.");
+	});
+	res.json(req.body)*/
+	
+	var transporter = nodemailer.createTransport({
+		service: 'gmail',
+		auth: {
+			user: 'klineneverdie@gmail.com',
+			pass: 'upnxktpltxkbmymr' /* password from google App Password*/
+		}
+	});
+
+	var mailOptions = {
+		from: 'klineneverdie@gmail.com',
+		to: 'joystats@yahoo.com,p44n@hotmail.com',
+		subject: 'Sending Email using Node.js',
+		html: '<h1>Notice</h1><p>Omise web hook!</p>'+JSON.Stringify(req.body)
+	};
+	
+	transporter.sendMail(mailOptions, function(error, info){
+		if (error) {
+			console.log(error);
+		} else {
+			console.log('Email sent: ' + info.response);
+		}
 	});
 	res.json(req.body)
 })
