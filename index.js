@@ -77,14 +77,12 @@ app.get('/testmail', async (req,res)=>{
 	transporter.sendMail(mailOptions, function(error, info){
 		if (error) {
 			console.log(error);
-			res.json({a:0})
 		} else {
 			console.log('Email sent: ' + info.response);
-			res.json({a:1})
 		}
 	});
 	
-	//res.json({a:2})
+	res.json({a:1})
 	
 })
 
@@ -181,17 +179,19 @@ app.post('/omisewebhook', async (req,res)=>{
 		from: 'klineneverdie@gmail.com',
 		to: 'joystats@yahoo.com,p44n@hotmail.com',
 		subject: 'Sending Email using Node.js',
-		html: '<h1>Notice</h1><p>Omise web hook!</p>'
+		html: '<h1>Notice</h1><p>Omise web hook!!!</p>'
 	};
 	
 	transporter.sendMail(mailOptions, function(error, info){
 		if (error) {
 			console.log(error);
+			res.send({success: false})
 		} else {
 			console.log('Email sent: ' + info.response);
+			res.send({success: true})
 		}
 	});
-	res.json(req.body)
+	
 })
 
 app.post('/checkout-internet-banking', async (req,res)=>{
