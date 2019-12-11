@@ -169,14 +169,13 @@ app.post('/omisewebhook', async (req,res)=>{
 })
 
 app.post('/checkout-internet-banking', async (req,res)=>{
-	const {name, email, amount, token} = req.body
-	const random = Math.floor(Math.random() * 1000) + 1
+	const {name, email, amount, token,return_uri} = req.body
 	try{
 		const charge = await omise.charges.create({
 			amount: amount,
 			source: token,
 			currency: 'thb',
-			return_uri: 'https://reactshop-18352.firebaseapp.com/#/finished/'+random
+			return_uri: return_uri
 			//return_uri: 'http://localhost:3000/#/finished/'+random
 		});
 		
