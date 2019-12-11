@@ -169,7 +169,7 @@ app.post('/omisewebhook', async (req,res)=>{
 })
 
 app.post('/checkout-internet-banking', async (req,res)=>{
-	const {name, email, amount, token,return_uri} = req.body
+	const {name, email, amount, token,return_uri, order_id} = req.body
 	try{
 		const charge = await omise.charges.create({
 			amount: amount,
@@ -180,10 +180,10 @@ app.post('/checkout-internet-banking', async (req,res)=>{
 		});
 		
 		if(charge){
-			await sendNotify("มีคำสั่งซื้อใหม่เลขที่: ORDID"+random)
+			await sendNotify("มีคำสั่งซื้อใหม่เลขที่: ORDID"+order_id)
 			res.send({
 				id: charge.id,
-				random_id: random,
+				random_id: order_id,
 				amount: charge.amount,
 				status: charge.status,
 				authorizeUri: charge.authorize_uri
