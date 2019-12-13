@@ -13,7 +13,7 @@
 		]
 	},
 	{
-		"id": 1,
+		"id": 2,
 		"name": "ZINNIA PRINTED SKIRT-WHITE",
 		"info": "กระโปรงทรง swing เอวยางยืด เนื้อผ้า polyester เนื้อทรายพิมพ์ลายดอกไม้ เนื้อผ้ามีน้ำหนัก ใส่แล้วทิ้งตัว ไม่พริ้วหรือบานมากค่ะ ค่อนข้างอยู่ทรง มีซับในกระโปรงสั้น  ใส่สวย แมตช์ง่าย แนะนำให้แมตช์กับเสื้อสีพื้นแบบไม่มีลายจ้า ง่ายๆแต่ดูดี :) WHITE สีขาวครีมออฟไวท์ ดูใสๆ สาวๆที่ต้องใส่ชุดไปทำงานสีขาว แนะนำตัวนี้น่ารักดีค่ะ ใส่แล้วดูสดใสขึ้นมาเลย",
 		"price": 480.00,
@@ -23,6 +23,17 @@
 			"http://rayongsociety.com/uploaded/20140503-lN0VDzf401.jpg",
 			"http://rayongsociety.com/uploaded/20140503-XMEInEPDaH.jpg",
 			"http://rayongsociety.com/uploaded/20140503-lJKCmF70nY.jpg"
+		]
+	},
+	{
+		"id": 3,
+		"name": "STRIPE MIDI SKIRT",
+		"info": "กระโปรงผ้ายืดเนื้อหนาลายขวาง ทรงpencil ใส่แล้วเข้ารูปสวย แต่ไม่รัดค่ะ เสริมขอบยางยืดที่เอว เพื่อให้แข็งอยู่ทรง แต่ไม่เป็นย่นๆนะคะ ขอบเรียบเย็บกลับเข้าด้านในตัวนี้ใส่ได้เรื่อยๆเลย ใส่เป็นเอวสูงหรือเอวต่ำก็ได้ แมตช์กับเสื้อยืดหรือเสื้อกล้ามธรรมดาก็น่ารักแล้วค่ะ ^^ NAVY สีน้ำเงินกรมท่า-ขาว BLACK สีดำ-ขาว",
+		"price": 490.00,
+		"image_url": "http://rayongsociety.com/uploaded/20140503-FXTFd0RjsH.jpg",
+		"gallery": [
+			"http://rayongsociety.com/uploaded/20140503-xs5gEUyuVY.jpg",
+			"http://rayongsociety.com/uploaded/20140503-qELRW6wc30.jpg"
 		]
 	}
 ]
