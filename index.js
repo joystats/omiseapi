@@ -35,7 +35,10 @@ app.get('/getproducts',function(req,res){
 })
 
 app.get('/getproducts/:id',function(req,res){
-	res.send(req.params.id);
+	const data = products.filter((item)=>{
+		return item.id===res.params.id
+	})
+	res.send(data);
 })
 
 /*
