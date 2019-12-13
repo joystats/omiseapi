@@ -15,6 +15,8 @@ var omise = require('omise')({
 	'secretKey': process.env.OMISE_SECRET_KEY,
 });
 
+const products = require('./products.json')
+
 var server = app.listen(port,function(){
 	console.log('Server running on port '+port)
 })
@@ -28,8 +30,8 @@ app.get('/',function(req,res){
 	res.sendFile(path.join(__dirname+'/index.html'))
 })
 
-app.get('/test',function(req,res){
-	res.send("Test");
+app.get('/getproducts',function(req,res){
+	res.send(products);
 })
 
 /*
