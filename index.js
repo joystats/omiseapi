@@ -34,6 +34,10 @@ app.get('/getproducts',function(req,res){
 	res.send(products);
 })
 
+app.get('/getproducts/:id',function(req,res){
+	res.send(req.body.params.id);
+})
+
 /*
 const createBanking = async ()=>{
 	try{
