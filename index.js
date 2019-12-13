@@ -188,7 +188,7 @@ app.post('/omisewebhook', async (req,res)=>{
 		from: 'klineneverdie@gmail.com',
 		to: 'joystats@yahoo.com',
 		subject: 'Sending Email using Node.js',
-		html: '<h1>Notice</h1><p>Omise web hook!!!!!</p>'
+		html: '<h1>Notice</h1><p>Omise web hook!!!!</p>'
 	};
 	
 	transporter.sendMail(mailOptions, function(error, info){
