@@ -35,7 +35,7 @@ app.get('/getproducts',function(req,res){
 })
 
 app.get('/getproducts/:id',function(req,res){
-	res.send(req.body.params.id);
+	res.send(req.params.id);
 })
 
 /*
