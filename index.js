@@ -139,7 +139,7 @@ app.get('/gethistory', async (req,res)=>{
 			from: "2019-12-01T00:00:00Z",
 			to: "2020-12-31T00:00:00Z",
 			offset:0,
-			limit:50,
+			limit:req.body.limit,
 			order:"reverse_chronological"
 		},function(err,lists){
 			res.send(lists)
