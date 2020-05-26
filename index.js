@@ -22,13 +22,10 @@ var server = app.listen(port,function(){
 })
 
 app.use(cors());
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(path.join(__dirname,'public')))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({'extended':true}))
 
-app.get('/',function(req,res){
-	res.sendFile(path.join(__dirname+'/index.html'))
-})
 
 app.get('/getproducts',function(req,res){
 	res.send(products);
