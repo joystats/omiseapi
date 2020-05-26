@@ -4,12 +4,12 @@
 		"name": "ZINNIA PRINTED SKIRT-BLACK",
 		"info": "กระโปรงทรง swing เอวยางยืด เนื้อผ้า polyester เนื้อทรายพิมพ์ลายดอกไม้ เนื้อผ้ามีน้ำหนัก ใส่แล้วทิ้งตัว ไม่พริ้วหรือบานมากค่ะ ค่อนข้างอยู่ทรง มีซับในกระโปรงสั้น ใส่สวย แมตช์ง่าย แนะนำให้แมตช์กับเสื้อสีพื้นแบบไม่มีลายจ้า ง่ายๆแต่ดูดี :) BLACK สีดำ ใส่ง่าย ใส่คู่กับเสื้อได้ทุกสีเช่นกันจ้า",
 		"price": 480.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-46p4OyR9Oa.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/1/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-46p4OyR9Oa.jpg",
-			"http://rayongsociety.com/uploaded/20140503-Y1pPg9dBgb.jpg",
-			"http://rayongsociety.com/uploaded/20140503-s99qvXmJh2.jpg",
-			"http://rayongsociety.com/uploaded/20140503-CA5AFRmRwq.jpg"
+			"https://omiseapi.herokuapp.com/files/1/1.jpg",
+			"https://omiseapi.herokuapp.com/files/1/2.jpg",
+			"https://omiseapi.herokuapp.com/files/1/3.jpg",
+			"https://omiseapi.herokuapp.com/files/1/4.jpg"
 		]
 	},
 	{
@@ -17,12 +17,12 @@
 		"name": "ZINNIA PRINTED SKIRT-WHITE",
 		"info": "กระโปรงทรง swing เอวยางยืด เนื้อผ้า polyester เนื้อทรายพิมพ์ลายดอกไม้ เนื้อผ้ามีน้ำหนัก ใส่แล้วทิ้งตัว ไม่พริ้วหรือบานมากค่ะ ค่อนข้างอยู่ทรง มีซับในกระโปรงสั้น  ใส่สวย แมตช์ง่าย แนะนำให้แมตช์กับเสื้อสีพื้นแบบไม่มีลายจ้า ง่ายๆแต่ดูดี :) WHITE สีขาวครีมออฟไวท์ ดูใสๆ สาวๆที่ต้องใส่ชุดไปทำงานสีขาว แนะนำตัวนี้น่ารักดีค่ะ ใส่แล้วดูสดใสขึ้นมาเลย",
 		"price": 480.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-IshBpEZbYy.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/2/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-IshBpEZbYy.jpg",
-			"http://rayongsociety.com/uploaded/20140503-lN0VDzf401.jpg",
-			"http://rayongsociety.com/uploaded/20140503-XMEInEPDaH.jpg",
-			"http://rayongsociety.com/uploaded/20140503-lJKCmF70nY.jpg"
+			"https://omiseapi.herokuapp.com/files/2/1.jpg",
+			"https://omiseapi.herokuapp.com/files/2/2.jpg",
+			"https://omiseapi.herokuapp.com/files/2/3.jpg",
+			"https://omiseapi.herokuapp.com/files/2/4.jpg"
 		]
 	},
 	{
@@ -30,11 +30,12 @@
 		"name": "STRIPE MIDI SKIRT",
 		"info": "กระโปรงผ้ายืดเนื้อหนาลายขวาง ทรงpencil ใส่แล้วเข้ารูปสวย แต่ไม่รัดค่ะ เสริมขอบยางยืดที่เอว เพื่อให้แข็งอยู่ทรง แต่ไม่เป็นย่นๆนะคะ ขอบเรียบเย็บกลับเข้าด้านในตัวนี้ใส่ได้เรื่อยๆเลย ใส่เป็นเอวสูงหรือเอวต่ำก็ได้ แมตช์กับเสื้อยืดหรือเสื้อกล้ามธรรมดาก็น่ารักแล้วค่ะ ^^ NAVY สีน้ำเงินกรมท่า-ขาว BLACK สีดำ-ขาว",
 		"price": 490.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-FXTFd0RjsH.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/3/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-FXTFd0RjsH.jpg",
-			"http://rayongsociety.com/uploaded/20140503-xs5gEUyuVY.jpg",
-			"http://rayongsociety.com/uploaded/20140503-qELRW6wc30.jpg"
+			"https://omiseapi.herokuapp.com/files/3/1.jpg",
+			"https://omiseapi.herokuapp.com/files/3/2.jpg",
+			"https://omiseapi.herokuapp.com/files/3/3.jpg",
+			"https://omiseapi.herokuapp.com/files/3/4.jpg"
 		]
 	},
 	{
@@ -42,11 +43,12 @@
 		"name": "DEBUTANTE PRINTED DRESS-BLUE",
 		"info": "เดรสสั้นผ้า polyester เนื้อลื่นบางเบา ยืดหยุ่น สายเดี่ยวปรับระดับได้ท่อนบนเป็นซับในเนื้อบางลื่นๆ ท่อนล่างซับในกางเกงผ้าแบบเดียวกับตัวนอก ใส่แล้วไม่โป๊ ตัวเดียวจบซิปข้าง ด้านหลังมียางยืดนิดๆที่ขอบบน เพื่อช่วยให้ชุดกระชับพอดีตัวค่ะ ใส่มาแล้วเป๊ะเหมือนตัดตามไซส์เลย ^^  ตัวนี้ผ้าลื่นๆใส่สบายมากก ไม่ร้อนค่ะ เหมาะกับ Summer มากๆ  นอกจากนี้ผ้ายังเบาและไม่ยับง่ายด้วย สามารถแพคใส่กระเป๋าไปเที่ยวทะเลได้สบายๆเลยค่ะ BLUE สีฟ้าคราม",
 		"price": 550.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-VD2Xp3JDRt.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/4/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-VD2Xp3JDRt.jpg",
-			"http://rayongsociety.com/uploaded/20140503-zCh8ZeTcn0.jpg",
-			"http://rayongsociety.com/uploaded/20140503-tRR8p5I7yc.jpg"
+			"https://omiseapi.herokuapp.com/files/4/1.jpg",
+			"https://omiseapi.herokuapp.com/files/4/2.jpg",
+			"https://omiseapi.herokuapp.com/files/4/3.jpg",
+			"https://omiseapi.herokuapp.com/files/4/4.jpg"
 		]
 	},
 	{
@@ -54,12 +56,12 @@
 		"name": "NUANCE PANEL DRESS-VANILLA",
 		"info": "เดรสสั้นผ้าชีฟอง เนื้อผ้าพริ้ว ใส่สบาย ไม่อึดอัด ช่วงไหล่แต่งระบายสองชั้น กระโปรงทรงเอแต่งผ้าสลับสีเปิดช่วงไหล่สวยๆ แต่ช่วยปิดต้นแขน ทำให้ใส่ได้อย่างมั่นใจ แอบเซ็กซี่นิดๆซิปหลัง จุดเด่นอยู่ที่การแต่งผ้าสลับสีกัน ทำให้ชุดดูมีดีเทลแบบเบาๆไม่เยอะเกินไปแต่โดดเด่น ใส่ง่ายในทุกๆโอกาส VANILLA ช่วงตัวสีขาวเหลืองวานิลลา แต่งระบายสีดำ",
 		"price": 520.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-0IxGVu1yOR.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/5/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-0IxGVu1yOR.jpg",
-			"http://rayongsociety.com/uploaded/20140503-yY9InWqoWm.jpg",
-			"http://rayongsociety.com/uploaded/20140503-rgCAsvdmuW.jpg",
-			"http://rayongsociety.com/uploaded/20140503-jcL7aIOaEm.jpg"
+			"https://omiseapi.herokuapp.com/files/5/1.jpg",
+			"https://omiseapi.herokuapp.com/files/5/2.jpg",
+			"https://omiseapi.herokuapp.com/files/5/3.jpg",
+			"https://omiseapi.herokuapp.com/files/5/4.jpg"
 		]
 	},
 	{
@@ -67,11 +69,12 @@
 		"name": "BOUQUET BABY DRESS-VANILLA",
 		"info": "เดรสสั้นผ้า polyester เนื้อผ้านุ่มลื่น ใส่สบาย มีซับในซาตินลื่นๆให้ทั้งตัว ซิปหลังด้านหน้าแต่งผ้าพิมพ์ลายช่อดอกไม้ ให้ชุดดูหวานๆ แขนทรงจีบ ใส่สวย คอกว้างดูไม่ตันค่ะ ชายตัวนี้จะไล่ระดับนิดๆ แบบหน้าสั้นหลังยาว ใส่แล้วดูหวานแต่ก็แอบเซ็กซี่ น่ารักค่ะ ^^ VANILLA สีครีมเหลืองวานิลลา",
 		"price": 520.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-SbWriuUxlF.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/6/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-SbWriuUxlF.jpg",
-			"http://rayongsociety.com/uploaded/20140503-KovEPHVkex.jpg",
-			"http://rayongsociety.com/uploaded/20140503-dU5Rio4nBq.jpg"
+			"https://omiseapi.herokuapp.com/files/6/1.jpg",
+			"https://omiseapi.herokuapp.com/files/6/2.jpg",
+			"https://omiseapi.herokuapp.com/files/6/3.jpg",
+			"https://omiseapi.herokuapp.com/files/6/4.jpg"
 		]
 	},
 	{
@@ -79,11 +82,12 @@
 		"name": "CHECKED TIE NECK TUNIC-CARMINE",
 		"info": "เดรสั้นผ้า polyester เนื้อหนา เป็นทรง แต่นุ่มมือ พิมพ์ลายสกอตตารางเล็กใหญ่ เก๋ด้วยดีเทลเว้าและต่อโบว์ผูกที่ใต้คอ ให้อารมณ์ประมาณสาวในไร่สตรอเบอรี่ น่ารักดีค่ะ ตัวนี้ต้องใส่คู่กับขาสั้นนะคะ เพราะเป็นกระโปรงสั่นผ้าพริ้วๆ จะได้ไม่โป๊ เหมาะกับใส่ไปเที่ยวต่างจังหวัดสุดๆ ห้ามพลาดเลยจ้า ซิปหลัง กระโปรงสวิง แพทเทิร์นวงกลม ใส่แล้วพริ้วๆ ผ้ามีน้ำหนัก  ทรงนี้ใส่สวยทุกคนค่ะ",
 		"price": 690.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-3pK8Bf9nOc.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/7/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-3pK8Bf9nOc.jpg",
-			"http://rayongsociety.com/uploaded/20140503-4q7xp93Vo4.jpg",
-			"http://rayongsociety.com/uploaded/20140503-hEWgrRJnVt.jpg"
+			"https://omiseapi.herokuapp.com/files/7/1.jpg",
+			"https://omiseapi.herokuapp.com/files/7/2.jpg",
+			"https://omiseapi.herokuapp.com/files/7/3.jpg",
+			"https://omiseapi.herokuapp.com/files/7/4.jpg"
 		]
 	},
 	{
@@ -91,11 +95,12 @@
 		"name": "POLKADOT SHAWL DRESS-NAVY",
 		"info": "เดรสสั้น ทรงพอดีตัว ใส่สวยไม่รัด ผ้า polyester นุ่มลื่นใส่สบายปกบัวหวานๆ ดูคุณหนูสุดๆ และเก๋ด้วยระบายผ้าคลุมไหล่ลายจุด ช่วงตัวเรียบๆมีซับในทั้งตัวค่ะ ตัวนี้ใส่แล้วน่ารักมากๆ ใส่ไปเรียนไปทำงานก็ได้ด้วยค่ะ NAVY สีน้ำเงินดำ-เบจ เรียบๆ น่ารัก ใส่ได้เรื่อยๆค่ะ",
 		"price": 590.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-IvhkFUiTJC.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/8/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-IvhkFUiTJC.jpg",
-			"http://rayongsociety.com/uploaded/20140503-GJpZERf2Od.jpg",
-			"http://rayongsociety.com/uploaded/20140503-Q5nQrUCf6F.jpg"
+			"https://omiseapi.herokuapp.com/files/8/1.jpg",
+			"https://omiseapi.herokuapp.com/files/8/2.jpg",
+			"https://omiseapi.herokuapp.com/files/8/3.jpg",
+			"https://omiseapi.herokuapp.com/files/8/4.jpg"
 		]
 	},
 	{
@@ -103,11 +108,12 @@
 		"name": "STRIP STRIPE DRESS",
 		"info": "เดรสสั้นผ้า polyester สีขาวดำ ผ้าเนื้อทรายยืด เนื้อผ้านุ่มๆ พริ้วๆ ทิ้งตัวเป็นทรงเรียบๆ มีซับใน แขนยาว ซิปหลัง ทรงเรียบๆแบบนี้สามารถใส่ได้เรื่อยๆเลยค่ะ โดยที่ไม่ดูจืดหรือเยอะเกินไป แนะนำสุดๆจ้า ^^ ** แต่ละตัวจะมีการ random การวางลายนะคะ จะไม่เป๊ะเหมือนในแบบเป๊ะๆจ้า เช่นในรูปแถบล่างสุดเป็นสีดำ บางตัวก็อาจเป็นสีขาว สลับกัน เป็นต้นค่ะ",
 		"price": 690.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-hNlvqQQG0x.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/9/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-hNlvqQQG0x.jpg",
-			"http://rayongsociety.com/uploaded/20140503-3QkP6Fp5sb.jpg",
-			"http://rayongsociety.com/uploaded/20140503-RtnTFcJCQr.jpg"
+			"https://omiseapi.herokuapp.com/files/9/1.jpg",
+			"https://omiseapi.herokuapp.com/files/9/2.jpg",
+			"https://omiseapi.herokuapp.com/files/9/3.jpg",
+			"https://omiseapi.herokuapp.com/files/9/4.jpg"
 		]
 	},
 	{
@@ -115,11 +121,12 @@
 		"name": "CHECKED TIE NECK TUNIC-NAVY",
 		"info": "เดรสั้น ผ้า polyester เนื้อหนา เป็นทรง แต่นุ่มมือ พิมพ์ลายสกอตตารางเล็กใหญ่ เก๋ด้วยดีเทลเว้าและต่อโบว์ผูกที่ใต้คอ ให้อารมณ์ประมาณสาวในไร่สตรอเบอรี่ น่ารักดีค่ะ ตัวนี้ต้องใส่คู่กับขาสั้นนะคะ เพราะเป็นกระโปรงสั่นผ้าพริ้วๆ จะได้ไม่โป๊ เหมาะกับใส่ไปเที่ยวต่างจังหวัดสุดๆ ห้ามพลาดเลยจ้า ซิปหลัง กระโปรงสวิง แพทเทิร์นวงกลม ใส่แล้วพริ้วๆ ผ้ามีน้ำหนัก  ทรงนี้ใส่สวยทุกคนค่ะ",
 		"price": 690.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-CoM0gq6SQ8.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/10/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-CoM0gq6SQ8.jpg",
-			"http://rayongsociety.com/uploaded/20140503-fycFtUm3LC.jpg",
-			"http://rayongsociety.com/uploaded/20140503-PtAYEFcx4n.jpg"
+			"https://omiseapi.herokuapp.com/files/10/1.jpg",
+			"https://omiseapi.herokuapp.com/files/10/2.jpg",
+			"https://omiseapi.herokuapp.com/files/10/3.jpg",
+			"https://omiseapi.herokuapp.com/files/10/4.jpg"
 		]
 	},
 	{
@@ -127,11 +134,12 @@
 		"name": "LILY RUFFLE DRESS-RED",
 		"info": "เดรสสั้นผ้า polyester เนื้อ peachskin แต่งระบายชีฟองเนื้อทรายสีวานิลลา ผูกแขน จับจีบหน้า ทำให้ใส่สบายแต่ดูไม่อ้วน จั๊มเอว ด้านหลังเป็นซิป เสริมยางยืดเข้าเอว ติดกระดุมคอ ตัวนี้ใส่น่ารักมากกกค่ะ ไว้เดินเที่ยว หรือจะใส่ไปเรียน/ทำงานก็ได้ หวานนิดๆ แต่ดูสบายๆค่ะ *ซักมือในน้ำสบู่อ่อนๆแล้วตากขึ้นเลยเท่านั้น ห้ามแช่ทิ้งไว้เพื่อป้องกันสีตกใส่กันค่ะ ",
 		"price": 550.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-MdbayjvBQG.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/11/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-MdbayjvBQG.jpg",
-			"http://rayongsociety.com/uploaded/20140503-WzfnInFUPn.jpg",
-			"http://rayongsociety.com/uploaded/20140503-2PA2wo1sQi.jpg"
+			"https://omiseapi.herokuapp.com/files/11/1.jpg",
+			"https://omiseapi.herokuapp.com/files/11/2.jpg",
+			"https://omiseapi.herokuapp.com/files/11/3.jpg",
+			"https://omiseapi.herokuapp.com/files/11/4.jpg"
 		]
 	},
 	{
@@ -139,11 +147,12 @@
 		"name": "LILY RUFFLE DRESS-TEAL",
 		"info": "เดรสสั้นผ้า polyester เนื้อ peachskin แต่งระบายชีฟองเนื้อทรายสีวานิลลา ผูกแขน จับจีบหน้า ทำให้ใส่สบายแต่ดูไม่อ้วน จั๊มเอว ด้านหลังเป็นซิป เสริมยางยืดเข้าเอว ติดกระดุมคอ ตัวนี้ใส่น่ารักมากกกค่ะ ไว้เดินเที่ยว หรือจะใส่ไปเรียน/ทำงานก็ได้ หวานนิดๆ แต่ดูสบายๆค่ะ *ซักมือในน้ำสบู่อ่อนๆแล้วตากขึ้นเลยเท่านั้น ห้ามแช่ทิ้งไว้เพื่อป้องกันสีตกใส่กันค่ะ ",
 		"price": 550.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140503-JFPwA1jT5i.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/12/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140503-JFPwA1jT5i.jpg",
-			"http://rayongsociety.com/uploaded/20140503-V0gni7UL84.jpg",
-			"http://rayongsociety.com/uploaded/20140503-gaVfMdpBop.jpg"
+			"https://omiseapi.herokuapp.com/files/12/1.jpg",
+			"https://omiseapi.herokuapp.com/files/12/2.jpg",
+			"https://omiseapi.herokuapp.com/files/12/3.jpg",
+			"https://omiseapi.herokuapp.com/files/12/4.jpg"
 		]
 	},
 	{
@@ -151,12 +160,12 @@
 		"name": "BLACK SKINNY PANTS-M",
 		"info": "กางเกงขายาวสีดำเข้ารูป เนื้อผ้า spandex เก็บทรงสุดๆค่ะ ตัวนี้คอนเฟิร์มผ้าดีมากกค่ะ เป็นผ้านำเข้าเนื้อดีสุดๆ ใส่สบาย เข้ารูปแต่ไม่รัดเกิน เนื้อผ้าจะไม่เงามากเหมือนพวกdisco pantsนะคะ  เหลือบนิดๆกำลังดี ใส่ได้เรื่อยๆ ให้feelingแบบเรียบหรู เป็นทรงเอวสูงค่ะ ใส่แล้วดูขายาวลืม55 ใส่ได้ทุกโอกาสตั้งแต่ทำงานยันปาร์ตี้ค่ะ ^^ เลือกไซส์ให้เล็กกว่าจริงหน่อยนะคะ เพราะเป็นกางเกงทรงเข้ารูป ใส่หลวมจะไม่สวยค่ะ นางแบบเอว25 สะโพก35 ใส่กำลังดี เอวหลวมนิดนึงแต่ก็โอเคค่ะ นอกนั้นพอดีจ้า ไม่ต้องห่วงติดขานะคะเพราะผ้ายืดได้เยอะและกระชับค่ะ :)) SIZE M เอว27-30 สะโพก 32-38 ยาว39 นิ้ว ตัวนี้ห้ามเอาไปตัดขาเด็ดขาดเพราะกางเกงจะเสียทรงนะคะ แต่ไม่มีปัญหาเรื่องความยาวเพราะเนื้อผ้ายืดสามารถจัดให้เข้ากับรูปขาได้สบายๆค่ะ :)",
 		"price": 850.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140426-oeZPFVp78X.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/13/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140426-oeZPFVp78X.jpg",
-			"http://rayongsociety.com/uploaded/20140426-cAW8o7z8nN.jpg",
-			"http://rayongsociety.com/uploaded/20140426-CeHmub4UEh.jpg",
-			"http://rayongsociety.com/uploaded/20140426-OFKDHarnAl.jpg"
+			"https://omiseapi.herokuapp.com/files/13/1.jpg",
+			"https://omiseapi.herokuapp.com/files/13/2.jpg",
+			"https://omiseapi.herokuapp.com/files/13/3.jpg",
+			"https://omiseapi.herokuapp.com/files/13/4.jpg"
 		]
 	},
 	{
@@ -164,12 +173,12 @@
 		"name": "SCRATCHED DENIM PANTS-M",
 		"info": "กางเกงยีนส์ขายาวทรงเข้ารูป แต่งรอยขาดด้านหน้าเป็นจุดๆ รุ่นนี้สำหรับคนชอบแบบไม่ขาดมากค่ะ จะมีดีเทลนิดๆกำลังดี  ไม่ดูแรงเกิน เป็นทรงเอวต่ำนะคะ เหมาะกับสาวแอบมีพุง จะช่วยพรางให้ดูผอมค่ะ สามารถใส่แบบเอาเสื้อเข้ากางเกง หรือใส่เสื้อแบบชายปล่อยๆมาปิดทับก็ได้เช่นกันค่ะ ^^ นางแบบเอวสูง 25 สะโพก35 ใส่ S พอดี เอวหลวมนิดๆกำลังดีไม่อึดอัดสะโพกรัดเข้ารูปกระชับพอดีค่ะ",
 		"price": 950.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140426-qlichvDQM1.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/14/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140426-qlichvDQM1.jpg",
-			"http://rayongsociety.com/uploaded/20140426-gY0kh57HT9.jpg",
-			"http://rayongsociety.com/uploaded/20140426-M5MBzqyy0c.jpg",
-			"http://rayongsociety.com/uploaded/20140426-57RxWFIZSv.jpg"
+			"https://omiseapi.herokuapp.com/files/14/1.jpg",
+			"https://omiseapi.herokuapp.com/files/14/2.jpg",
+			"https://omiseapi.herokuapp.com/files/14/3.jpg",
+			"https://omiseapi.herokuapp.com/files/14/4.jpg"
 		]
 	},
 	{
@@ -177,12 +186,12 @@
 		"name": "DESTROYED HIGH-WAIST PANTS",
 		"info": "กางเกงยีนส์ขายาวทรงเข้ารูป แต่งรอยขาดด้านหน้า ห้ามพลาดเด็ดขาดค่ะตัวนี้ เป็นทรงเอวสูงนะคะ ใส่แล้วไม่หลุดเวลานั่งให้เสียบุคลิก และยังช่วยเก็บพุงและยกกระชับสะโพกได้ด้วย เริ่ดสุดจ้า ตรงรอยขาดเราสามารถแต่งแก้ไขเพิ่มได้อีกนะคะ เช่นบางคนชอบให้ขาดแบบบางช่วงหายไปเลยเหมือนที่กำลังฮิตตอนนี้ ก็สามารถฉีกออกอีกได้ค่ะ อารมณ๊์ประมาณยีนส์ขาดของZARA ที่เราสามารถแต่งและฉีกให้ขาดเพิ่มอีกได้ตามใจจ้า (สามารถทำเพิ่มได้เฉพาะแถวๆบริเวณที่มีรอยขาดนำร่องอยู่แล้วนะคะ แต่ตรงที่เป็นยีนส์เนื้อหนาจะแข็งเหมือนยีนส์ทั่วไป ไม่สามารถทำได้จ้า) ใส่กับเสื้อแบบไหนก็ดูดีค่ะ ง่ายๆแต่เริ่ดสุดจ้า*กางเกงยีนส์ควรวัดไซส์เผื่อหลวมนิดนึงนะคะเพราะเป็นผ้าชนิดเนื้อหนา หากเราไม่เผื่อหลวมเลยเวลาใส่จะไม่สบายจ้า แนะนำให้เผื่อหลวมเล็กน้อยจะช่วยให้เราดูผอมด้วยค่ะ เช่นถ้าปกติเอว27 ให้เลือกเป็นไซส์ M เอว28 เป็นต้นจ้านางแบบเอวสูง 25 สะโพก35 ใส่ S พอดี เอวหลวมนิดๆกำลังดีไม่อึดอัดและไม่หลวมเกินค่ะ",
 		"price": 990.00,
-		"image_url": "http://rayongsociety.com/uploaded/20140426-ATYEYlC9uk.jpg",
+		"image_url": "https://omiseapi.herokuapp.com/files/15/1.jpg",
 		"gallery": [
-			"http://rayongsociety.com/uploaded/20140426-ATYEYlC9uk.jpg",
-			"http://rayongsociety.com/uploaded/20140426-RQrPUOa5lI.jpg",
-			"http://rayongsociety.com/uploaded/20140426-FiWB78HTDq.jpg",
-			"http://rayongsociety.com/uploaded/20140426-V9q0CV58t9.jpg"
+			"https://omiseapi.herokuapp.com/files/15/1.jpg",
+			"https://omiseapi.herokuapp.com/files/15/2.jpg",
+			"https://omiseapi.herokuapp.com/files/15/3.jpg",
+			"https://omiseapi.herokuapp.com/files/15/4.jpg"
 		]
 	}
 ]
